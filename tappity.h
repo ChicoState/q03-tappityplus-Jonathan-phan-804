@@ -1,6 +1,7 @@
 #ifndef _TAPPITY_H_
 #define _TAPPITY_H_
 #include <string>
+#include <algorithm>
 
 /**
  * Class for tappity
@@ -8,7 +9,8 @@
 class tappity
 {
     private:
-
+        std::string value;
+        std::string input;
     public:
         //Constructor sets the reference phrase
         tappity(std::string reference);
